@@ -4,7 +4,7 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7498b55c-1edb-4319-947c-f4cd80bc36c8/deploy-status)](https://app.netlify.com/sites/admirable-elf-a5f913/deploys)
 
-# Retink Presale Page for Intership Request
+# eJam Assignment for Job
 > A Single Page App built with React with no Interactions.
 
 ## Built With :hammer_and_wrench: 
@@ -16,7 +16,7 @@
 
 ## Live Demo :arrow_forward:
 
- [Click Here](https://retink-intern.netlify.app/)
+ [Click Here](https://aesthetic-sunburst-80d944.netlify.app/)
 
 ## Set Up Guide :page_facing_up: 
 
