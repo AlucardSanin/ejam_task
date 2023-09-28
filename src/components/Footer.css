@@ -1,0 +1,70 @@
+.Footer {
+  background-color: #252f3d;
+  color: white;
+  margin-top: 60px;
+  font-size: 16px;
+  line-height: 22.4px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+#FootContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Footer #left {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.Footer #rigth {
+  background: url(/src/images/lock.svg) no-repeat;
+  background-position: 5% 50%;
+  padding-left: 3%;
+  text-align: right;
+}
+
+.Footer #left #l1:first-child {
+  order: -1;
+}
+
+@media screen and (max-width: 480px) {
+  .Footer {
+    font-size: 12px;
+  }
+
+  #FootContainer {
+    flex-wrap: wrap;
+  }
+
+  .Footer #left {
+    flex-wrap: nowrap;
+    margin: 0;
+    justify-content: space-between;
+    gap: 0;
+    width: 90%;
+  }
+
+  #FootContainer #left p:nth-child(1) {
+    border-right: 1px solid white;
+    width: 38%;
+  }
+
+  .Footer #rigth {
+    margin: 0;
+    background-position: 0% 50%;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .Footer #left::before {
+    align-self: stretch;
+    content: '';
+    border: 1px solid white;
+    height: 24px;
+    margin-top: 3.5%;
+  }
+}
