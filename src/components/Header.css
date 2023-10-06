@@ -45,13 +45,11 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
-  #hp2,
-  #hp3,
-  #hp4 {
-    display: none;
-  }
+[class*="desktop"]{
+  display: none;
+}
 
+@media screen and (max-width: 480px) {
   .Header ul {
     padding-inline: 18px;
     height: 42px;
@@ -64,4 +62,13 @@
   .Header span:hover {
     cursor: pointer;
   }
+
+  [class*="mobile"]{
+    display: none;
+  }
+
+  [class*="desktop"]{
+    display: block;
+  }
 }
+
